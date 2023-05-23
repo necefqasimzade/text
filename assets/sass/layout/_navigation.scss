@@ -1,0 +1,59 @@
+.container {
+    max-width: 1140px;
+
+    .navbar_container {
+        background-color: rgb(247, 247, 247);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        #navbarToggleExternalContent {
+            display: none;
+        }
+
+        .ADOPTED_title {
+            h1 {
+                color: black;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+        }
+
+        .menu_home {
+            display: flex;
+
+            .home_text {
+                color: rgb(167, 65, 65);
+            }
+
+            a {
+                color: rgb(87, 87, 87);
+            }
+
+            a:hover {
+                color: black;
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 568px) {
+.container{
+.navbar_container{
+        .burger_box {
+            display: block;
+            font-size: 32px;
+            padding: 10px;
+            border: 1px solid;
+           }
+    }
+
+}
+    
+   
+
+    .menu_box {
+        display: none;
+    }
+}

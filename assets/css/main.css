@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav li,
+nav ul {
+  list-style: none;
+  gap: 20px;
+}
+
+a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+}
+.container .navbar_container {
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .navbar_container #navbarToggleExternalContent {
+  display: none;
+}
+.container .navbar_container .ADOPTED_title h1 {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container .navbar_container .menu_home {
+  display: flex;
+}
+.container .navbar_container .menu_home .home_text {
+  color: rgb(167, 65, 65);
+}
+.container .navbar_container .menu_home a {
+  color: rgb(87, 87, 87);
+}
+.container .navbar_container .menu_home a:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 568px) {
+  .container .navbar_container .burger_box {
+    display: block;
+    font-size: 32px;
+    padding: 10px;
+    border: 1px solid;
+  }
+  .menu_box {
+    display: none;
+  }
+}
+header {
+  background-color: brown;
+}
+
+.container {
+  max-width: 1140px;
+}
+.container .container_header {
+  padding: 10px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .container_header .button_sponsor_login {
+  display: flex;
+  gap: 20px;
+}
+.container .container_header .button_sponsor_login a:hover {
+  color: white;
+}
+.container .container_header .button_sponsor_login .sponsor_button {
+  border: none;
+  background-color: brown;
+}
+.container .container_header .button_sponsor_login .login_button {
+  padding: 20px;
+  border: none;
+  background-color: rgb(235, 112, 68);
+}
+.container .container_header .header_icons {
+  display: flex;
+  gap: 20px;
+}
+
+main .images_section .card_mark {
+  position: absolute;
+  top: 300px;
+}
+main .images_section .card_mark button {
+  border-radius: 5px;
+  padding: 10px;
+  border-color: #bc5148;
+  background-color: #bc5148;
+  color: white;
+  border-width: 2px;
+}/*# sourceMappingURL=main.css.map */

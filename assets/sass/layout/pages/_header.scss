@@ -1,0 +1,41 @@
+header{
+    background-color: brown;
+
+}
+
+.container {
+    max-width: 1140px;
+
+    .container_header {
+        padding: 10px;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .button_sponsor_login {
+            display: flex;
+            gap: 20px;
+            a:hover {
+                color: white;
+            }
+            .sponsor_button {
+                border: none;
+                background-color: brown;
+
+               
+            }
+
+            .login_button {
+                padding: 20px;
+                border: none;
+                background-color:rgb(235, 112, 68);
+            }
+        }
+
+        .header_icons {
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
